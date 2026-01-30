@@ -1,6 +1,6 @@
 import { Card } from "@/component/i-tect-cards/cards";
 import Image from "next/image";
-
+import { ModeToggle } from "@/components/mode-toggle";
 export default function Home() {
   return (
   
@@ -11,6 +11,8 @@ export default function Home() {
     title={"Streamlining your design process today."}
     describtion={"In today’s fast-paced digital landscape, fostering seamless collaboration among Developers and IT Operations."}
      />
+     <ModeToggle/>
+     
   </main>
 
   );
